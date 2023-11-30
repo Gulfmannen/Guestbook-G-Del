@@ -1,0 +1,91 @@
+body {
+  background-image: url(img/8e46150f790fbefe438d9c2767c32ad1.gif);
+  font-family: "Engender Mod", sans-serif;
+  background-color: #ffe4c4;
+  color: #333;
+  margin: 5px;
+  padding: 5px;
+}
+
+h1 {
+  color: greenyellow;
+  text-align: center;
+  font-size: 30px;
+}
+
+h2 {
+  color: greenyellow;
+}
+
+#guestForm {
+  color: greenyellow;
+  background-image: url(img/terminalTEX7.png);
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px greenyellow;
+}
+
+input {
+  font-family: "Engender Mod", sans-serif;
+  color: greenyellow;
+  background-color: rgb(43, 43, 43);
+  width: calc(100% - 22px);
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid greenyellow;
+  border-radius: 5px;
+}
+
+input type {
+  font-family: "Engender Mod", sans-serif;
+}
+
+textarea {
+  font-family: "Engender Mod", sans-serif;
+  color: greenyellow;
+  background-color: rgb(43, 43, 43);
+  width: calc(100% - 22px);
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid greenyellow;
+  border-radius: 5px;
+  height: 100px;
+  resize: none;
+}
+
+button {
+  font-family: "Engender Mod", sans-serif;
+  font-weight: bold;
+  background-color: greenyellow;
+  color: black;
+  padding: 10px;
+  box-shadow: 0 0 6px greenyellow;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: rgb(129, 214, 0);
+}
+
+#entriesList {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  color: greenyellow;
+  padding: 15px;
+  margin-bottom: 15px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgb(87, 145, 0);
+}
+
+#entriesList li {
+  box-shadow: 0 0 10px rgb(87, 145, 0);
+  background-image: url(img/terminalTEX.jpg);
+  padding: 15px;
+  margin-bottom: 15px;
+  border-radius: 5px;
+}
